@@ -1,5 +1,5 @@
 {
-    "model": "bert",
+    "model": "BERT",
     "model_params": {
       "seq_len":63
     },
