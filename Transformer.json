@@ -1,5 +1,5 @@
 {
-    "model": "BERT",
+    "model": "TransformerEncoder",
     "model_params": {
       "seq_len":63
     },
