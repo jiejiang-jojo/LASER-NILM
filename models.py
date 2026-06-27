@@ -281,4 +281,3 @@ class PatchTST(nn.Module):
 MODELS = {cname: (cls, inspect.getfullargspec(cls.__init__).args[1:])
           for cname, cls in inspect.getmembers(sys.modules[__name__], inspect.isclass)
           if issubclass(cls, nn.Module)}
-MODELS['bert'] = (bert_model, inspect.getfullargspec(bert_model).args)
